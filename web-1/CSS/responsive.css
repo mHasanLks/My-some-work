@@ -1,0 +1,56 @@
+/* Tebleat Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+    .mean-container a.meanmenu-reveal {padding: 5px 13px 11px;}
+    /* .mini_manu ul li a {margin-left: 10px;} */
+    .social_area{ max-width: 460px;}
+    #main_menu ul{width: auto;}
+    .inner_header {padding: 20px 5px; overflow: hidden;}
+    .inner_hero h2 {font-size: 45px; margin-top: 10%;}
+    /* .mean-container .mean-nav {margin-top: 19px;} */
+    .logo_area {margin-left: 3%;}
+    .child_service .service_text {width: 70%;}
+    .child_service .service_image {margin-top: 10px;}
+    .about_area p {margin-left: 5px;}
+    .about_area h2 {margin-left: 5px;}
+    .testimonial_area h2{font-size:25px;}
+    .right_copyright { width: 38%; margin-right: 2%;}
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px){
+.mini_manu ul li a { margin-left: 2px;}
+.mini_manu{width: 96%; padding-top: 0px;}
+.mini_manu ul li:nth-last-child(){margin-right: 0px;}
+.mini_manu ul li {margin-right: 10px;}  
+.search_area {width: 50%;}
+#main_header_area {margin: 0px;}
+#slider_area {margin-top: 0px;}
+.child_footer h3 {border-top: 1px solid #b11018;}
+.child_work {width: 100%; margin: 10px 0px;}
+#work_area{padding: 0px; margin-top: 20px;}
+#footer_area {padding: 10px 0; margin-top: 20px 0px;}
+.child_footer {width: 100%;}
+#copyright_area{padding: 10px; }
+.left_copyright{width: 100%;}
+.left_copyright p{margin: 0px;}
+.right_copyright {width: 100%; float:left; text-align: left;}
+.right_copyright p{margin: 0px;}
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 750px){
+    .logo_area {width: 200px;}
+    .social_area{width: 50%;}
+    .social_area ul li {margin-left: 0px;}
+    .inner_menu {display: none; min-height: 0;}
+    .inner_menu::after{display: none;}
+}
+
+@media only screen and (min-width: 490px) and (max-width: 750px){
+    .social_area ul li {margin-left: 8px;}
+
+}
+@media only screen and (min-width: 200px) and (max-width: 769px){
+.inner_menu{display: block; background: none; padding: 0px;}
+.inner_menu::after{display: block; background: none;}
+}
